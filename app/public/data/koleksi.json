@@ -1,10 +1,91 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Komputer Desktop",
+    "kategori": "Komputer",
+    "kodeAlat": "KOM-001",
+    "jumlah": 30,
+    "kondisi": "Perlu servis"
+  },
+
+  {
+    "id": "2",
+    "judul": "Laptop Praktikum",
+    "kategori": "Komputer",
+    "kodeAlat": "KOM-002",
+    "jumlah": 20,
+    "kondisi": "Baik"
+  },
+
+  {
+    "id": "3",
+    "judul": "switch",
+    "kategori": "Jaringan",
+    "kodeAlat": "JAR-001",
+    "jumlah": 5 ,
+    "kondisi": "Rusak"
+  },
+
+  {
+    "id": "4",
+    "judul": "Router",
+    "kategori": "Jaringan",
+    "kodeAlat": "JAR-002",
+    "jumlah": 8 ,
+    "kondisi": "Baik"
+  },
+
+  {
+    "id": "5",
+    "judul": "Kabel LAN",
+    "kategori": "Jaringan",
+    "kodeAlat": "JAR-003",
+    "jumlah": 20,
+    "kondisi": "Baik"
+  },
+
+  {
+    "id": "6",
+    "judul": "Motherboard",
+    "kategori": "Elektronika",
+    "kodeAlat": "ELE-001",
+    "jumlah": 10,
+    "kondisi": "Rusak"
+  },
+
+  {
+    "id": "7",
+    "judul": "Arduino Uno",
+    "kategori": "Elektronika",
+    "kodeAlat": "ELE-002",
+    "jumlah": 5,
+    "kondisi": "Baik"
+  },
+
+  {
+    "id": "8",
+    "judul": "power supply",
+    "kategori": "Elektronika",
+    "kodeAlat": "ELE-003",
+    "jumlah": 7,
+    "kondisi": "Baik"
+  },
+
+  {
+    "id": "9",
+    "judul": "Multimeter",
+    "kategori": "Alat Ukur",
+    "kodeAlat": "UKR-001",
+    "jumlah": 8,
+    "kondisi": "Perlu servis"
+  },
+
+  {
+    "id": "10",
+    "judul": "LAN Tester",
+    "kategori": "Alat Ukur",
+    "kodeAlat": "UKR-002",
+    "jumlah": 12,
+    "kondisi": "Rusak"
   }
 ]
