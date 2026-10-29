@@ -43,7 +43,7 @@ export default function Tambah() {
       <input id="kodeAlat" name="kodeAlat" value={form.kodeAlat} onChange={ubah} />
 
       <label htmlFor="jumlah">Jumlah</label>
-      <input id="jumlah" name="jumlah" type="number" value={form.jumlah} onChange={ubah} />
+      <input id="jumlah" name="jumlah" type="number" min="0" value={form.jumlah} onChange={ubah} />
 
       <label htmlFor="kondisi">Kondisi</label>
       <select id="kondisi" name="kondisi" value={form.kondisi} onChange={ubah}>
