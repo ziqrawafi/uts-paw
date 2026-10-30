@@ -1,5 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom'
+import mahasiswa from '../../mahasiswa.json'
 import './Layout.css'
+import './Bonus.css'
 
 const MENU = [
   { ke: '/', label: 'Beranda' },
@@ -12,7 +14,7 @@ const MENU = [
 export default function Layout() {
   return (
     <div className="kerangka">
-      <header className="kepala">
+      <header className="kepala" id="kepala-utama">
         <strong>Inventaris laboratorium</strong>
         <nav className="menu">
           {MENU.map(({ ke, label }) => (
@@ -22,10 +24,13 @@ export default function Layout() {
           ))}
         </nav>
       </header>
-      <main className="isi">
+      <main className="isi" id="konten-utama">
         <Outlet />
       </main>
-      <footer className="kaki">Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
+        <footer className="kaki" id="kaki-situs">
+          <span className="kaki-kiri">Ujian Tengah Semester Pengembangan Aplikasi Web</span>
+          <span>{mahasiswa.nama}</span>
+        </footer>
     </div>
   )
 }

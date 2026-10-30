@@ -1,0 +1,93 @@
+/* Selektor id */
+#kepala-utama {
+  background: #1d0453;
+  color: #ffffff;
+}
+
+#kepala-utama a {
+  color: #ffffff;
+}
+
+#konten-utama h1 {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #0969da;
+}
+
+#kaki-situs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/*  Selektor kelas */
+.kepala {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menu a {
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.kartu {
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.alat-koleksi input,
+.alat-koleksi select {
+  background: #fff;
+}
+
+.aksi button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #b42318;
+  border-radius: 6px;
+  background: #fff;
+  color: #b42318;
+  font: inherit;
+  cursor: pointer;
+}
+
+.tabel-data thead th {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
+/* :hover */
+.menu a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.kartu:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.aksi button:hover {
+  background: #b42318;
+  color: #fff;
+}
+
+/* :focus */
+.alat-koleksi input:focus,
+.alat-koleksi select:focus {
+  outline: none;
+  border-color: #0969da;
+  box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.25);
+}
+
+/* :active */
+.aksi button:active {
+  transform: scale(0.97);
+}
+
+/* ::placeholder */
+.alat-koleksi input::placeholder {
+  color: #8c959f;
+  font-style: italic;
+}
