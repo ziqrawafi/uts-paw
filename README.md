@@ -25,7 +25,7 @@
 
 | Halaman Statistik | Halaman Tentang |
 | :---: | :---: |
-| ![Tangkapan layar statistik](docs/statistik.png) | ![Tangkapan layar tentang](docs/tentang.png) |
+| ![Tangkapan layar statistik](docs/Statistik.png) | ![Tangkapan layar tentang](docs/Tentang.png) |
 | *Gambar 5. Halaman Statistik Koleksi* | *Gambar 6. Halaman Tentang Aplikasi* |
 
 
