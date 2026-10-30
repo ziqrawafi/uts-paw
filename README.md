@@ -1,6 +1,6 @@
-# Inventaris Laboratorium
+# Ujian Tengah Semester IF25-22014 Pengembangan Aplikasi Web
 
-Ujian Tengah Semester IF25-22014 Pengembangan Aplikasi Web
+# Inventaris Laboratorium 
 
 | Informasi | Detail |
 | :--- | :--- |
@@ -8,31 +8,39 @@ Ujian Tengah Semester IF25-22014 Pengembangan Aplikasi Web
 | **NIM** | 124140043 |
 | **Kelas** | RA |
 | **Tema** | Inventaris Laboratorium |
-| **Repositori** | https://github.com/ziqrawafi/uts-paw |
+| **Deployment** | https://ziqrawafi.github.io/uts-paw/ |
 
 ---
-
 ## Tangkapan Layar Aplikasi
 
 | Halaman Beranda | Halaman Koleksi |
 | :---: | :---: |
-| <img src="galeri/beranda.png" alt="Tangkapan layar beranda" width="300"> | <img src="galeri/koleksi.png" alt="Tangkapan layar koleksi" width="300"> |
-| *Gambar 1. Halaman Beranda* | *Gambar 2. Halaman Koleksi Alat* |
+| ![Tangkapan layar beranda](docs/beranda.png) | ![Tangkapan layar koleksi](docs/koleksi.png) |
+| *Gambar 1. Halaman Beranda* | *Gambar 2. Halaman Koleksi Buku* |
 
-| Halaman Detail Alat | Halaman Tambah Alat |
+| Halaman Detail Buku | Halaman Tambah Buku |
 | :---: | :---: |
-| <img src="galeri/detail.png" alt="Tangkapan layar detail" width="300"> | <img src="galeri/TambahAlat.png" alt="Tangkapan layar tambah" width="300"> |
-| *Gambar 3. Halaman Detail Alat* | *Gambar 4. Halaman Form Tambah Alat* |
+| ![Tangkapan layar detail](docs/detail.png) | ![Tangkapan layar tambah](docs/tambah.png) |
+| *Gambar 3. Halaman Detail Buku* | *Gambar 4. Halaman Form Tambah Buku* |
 
 | Halaman Statistik | Halaman Tentang |
 | :---: | :---: |
-| <img src="galeri/Statistik.png" alt="Tangkapan layar statistik" width="300"> | <img src="galeri/Tentang.png" alt="Tangkapan layar tentang" width="300"> |
+| ![Tangkapan layar statistik](docs/statistik.png) | ![Tangkapan layar tentang](docs/tentang.png) |
 | *Gambar 5. Halaman Statistik Koleksi* | *Gambar 6. Halaman Tentang Aplikasi* |
+
 
 ---
 
 ## Fitur
 
+- Menampilkan ringkasan dan daftar alat laboratorium dalam bentuk kartu.
+- Pencarian alat berdasarkan judul dan filter berdasarkan kategori.
+- Melihat informasi lengkap alat pada halaman detail.
+- Menambahkan alat baru ke koleksi lewat formulir dengan validasi.
+- Menghapus alat dari koleksi dengan konfirmasi.
+- Menampilkan statistik jumlah alat berdasarkan kategori.
+- Menampilkan identitas mahasiswa, tema, dan tautan repositori di halaman Tentang.
+- Halaman 404 untuk alamat yang tidak dikenal.
 
 ---
 
@@ -47,3 +55,8 @@ npm run dev
 ---
 
 ## Konsep React yang dipakai
+
+- Components & Props: Memecah antarmuka menjadi komponen yang dapat dipakai ulang.
+- State (useState): Mengelola state pada kotak pencarian, filter kategori, dan formulir.
+- React Context (useContext & custom hook `useKoleksi`): Membagikan data koleksi ke semua halaman.
+- Pengujian: Vitest dan Testing Library.
